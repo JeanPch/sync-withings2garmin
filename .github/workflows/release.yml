@@ -1,5 +1,5 @@
 # Publishing a GitHub Release "vX.Y.Z" moves the floating major tag "vX" to it,
-# so every user referencing `ploa33/sync-withings2garmin@vX` gets the update
+# so every user referencing `JeanPch/sync-withings2garmin@vX` gets the update
 # on their next run — no action needed on their side.
 name: Release
 
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   move-major-tag:
-    if: github.repository == 'ploa33/sync-withings2garmin' && !github.event.release.prerelease
+    if: github.repository == 'JeanPch/sync-withings2garmin' && !github.event.release.prerelease
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

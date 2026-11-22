@@ -1,9 +1,9 @@
 # Withings → Garmin Connect
 
 [![Marketplace](https://img.shields.io/badge/Marketplace-Withings_to_Garmin-blue?logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/withings-to-garmin-connect-sync)
-[![Release](https://img.shields.io/github/v/release/ploa33/sync-withings2garmin?logo=github)](https://github.com/ploa33/sync-withings2garmin/releases)
-[![CI](https://github.com/ploa33/sync-withings2garmin/actions/workflows/ci.yml/badge.svg)](https://github.com/ploa33/sync-withings2garmin/actions/workflows/ci.yml)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-orange.svg?logo=buy-me-a-coffee)](https://buymeacoffee.com/ploa33)
+[![Release](https://img.shields.io/github/v/release/JeanPch/sync-withings2garmin?logo=github)](https://github.com/JeanPch/sync-withings2garmin/releases)
+[![CI](https://github.com/JeanPch/sync-withings2garmin/actions/workflows/ci.yml/badge.svg)](https://github.com/JeanPch/sync-withings2garmin/actions/workflows/ci.yml)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-orange.svg?logo=buy-me-a-coffee)](https://buymeacoffee.com/Ploa)
 
 Automatically sync weigh-ins and body composition from any **Withings Scale** (Body, Body+, Body Smart, Body Scan, Body Scan 2, Body Comp, BodyFit, Body Cardio) to **Garmin Connect** — 100% free, private, and real-time via GitHub Actions.
 
@@ -15,7 +15,7 @@ Automatically sync weigh-ins and body composition from any **Withings Scale** (B
 
 ### 1. Create your private repository
 
-[![Use this template](https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/new?template_name=sync-withings2garmin&template_owner=ploa33)
+[![Use this template](https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/new?template_name=sync-withings2garmin&template_owner=JeanPch)
 
 > [!IMPORTANT]
 > Set repository visibility to **Private** to protect your credentials and health data.
@@ -101,6 +101,6 @@ flowchart LR
 
 If this saved you the cost of a Garmin Index scale:
 
-<a href="https://buymeacoffee.com/ploa33" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="40"></a>
+<a href="https://buymeacoffee.com/Ploa" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="40"></a>
 
 Distributed under the [MIT License](LICENSE). *Independent open-source tool, not affiliated with Garmin Ltd. or Withings SA.*

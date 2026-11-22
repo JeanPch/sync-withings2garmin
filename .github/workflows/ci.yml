@@ -11,7 +11,7 @@ permissions:
 jobs:
   test:
     # Only in the upstream repo (not in copies made with "Use this template")
-    if: github.repository == 'ploa33/sync-withings2garmin'
+    if: github.repository == 'JeanPch/sync-withings2garmin'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -24,7 +24,7 @@ jobs:
       - run: pytest -q
 
   actionlint:
-    if: github.repository == 'ploa33/sync-withings2garmin'
+    if: github.repository == 'JeanPch/sync-withings2garmin'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

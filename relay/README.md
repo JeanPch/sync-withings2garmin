@@ -16,7 +16,7 @@ Zero personal health data, credentials, or metrics ever touch or pass through th
 
 1. Go to **[GitHub Developer Settings → GitHub Apps → New GitHub App](https://github.com/settings/apps/new)**:
    - **GitHub App name:** `Withings to Garmin Sync` (or similar)
-   - **Homepage URL:** `https://github.com/ploa33/sync-withings2garmin`
+   - **Homepage URL:** `https://github.com/JeanPch/sync-withings2garmin`
    - **Callback URL:** `https://withings-sync-relay.ploa33.workers.dev/oauth`
    - **Webhook:** Uncheck **Active** (no incoming webhooks needed from GitHub).
 2. **Permissions:**
@@ -54,4 +54,4 @@ Zero personal health data, credentials, or metrics ever touch or pass through th
    npm run deploy
    ```
 
-Your relay is now active and ready to serve all users of `ploa33/sync-withings2garmin`!
+Your relay is now active and ready to serve all users of `JeanPch/sync-withings2garmin`!

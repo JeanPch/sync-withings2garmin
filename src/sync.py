@@ -3,7 +3,7 @@
 Withings smart scales (Body, Body+, Body Smart, Body Scan, Body Comp, Body Cardio)
 → Garmin Connect sync.
 
-Designed to run inside the `ploa33/sync-withings2garmin` GitHub Action, but also
+Designed to run inside the `JeanPch/sync-withings2garmin` GitHub Action, but also
 works locally. All persistent state lives in a single directory (W2G_STATE_DIR):
 
     tokens.json          Withings OAuth tokens (refresh token rotates on every refresh)
@@ -64,7 +64,7 @@ GARMIN_MFA_CODE = os.environ.get("GARMIN_MFA_CODE", "").strip()
 # redirect_uri used both to build the authorization URL and during the
 # code→token exchange. Defaults to GitHub Pages callback helper, with localhost:8080
 # as an automatic fallback.
-PAGES_REDIRECT_URI = "https://ploa33.github.io/sync-withings2garmin/"
+PAGES_REDIRECT_URI = "https://jeanpch.github.io/sync-withings2garmin/"
 LOCALHOST_REDIRECT_URI = "http://localhost:8080"
 OAUTH_REDIRECT_URI = os.environ.get("WITHINGS_REDIRECT_URI", "").strip() or PAGES_REDIRECT_URI
 

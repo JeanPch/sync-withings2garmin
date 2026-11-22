@@ -35,11 +35,11 @@ concurrency:
 
 jobs:
   sync:
-    if: github.repository != 'ploa33/sync-withings2garmin'
+    if: github.repository != 'JeanPch/sync-withings2garmin'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: ploa33/sync-withings2garmin@v1
+      - uses: JeanPch/sync-withings2garmin@v1
         with:
           withings-client-id: ${{ vars.WITHINGS_CLIENT_ID || secrets.WITHINGS_CLIENT_ID }}
           withings-client-secret: ${{ secrets.WITHINGS_CLIENT_SECRET }}

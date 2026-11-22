@@ -637,7 +637,7 @@ export default {
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Withings → Garmin Relay</title>
 <style>body{font-family:system-ui,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}.c{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:28px;max-width:400px;text-align:center}a{color:#58a6ff;text-decoration:none}</style></head>
-<body><div class="c"><div style="font-size:36px">⚖️</div><h2 style="color:#f0f6fc;margin:10px 0 6px">Withings → Garmin Relay</h2><p style="font-size:13px;color:#8b949e;margin:0 0 16px">Stateless OAuth &amp; webhook bridge · Zero data storage</p><a href="https://github.com/ploa33/sync-withings2garmin">View Documentation on GitHub →</a></div></body></html>`);
+<body><div class="c"><div style="font-size:36px">⚖️</div><h2 style="color:#f0f6fc;margin:10px 0 6px">Withings → Garmin Relay</h2><p style="font-size:13px;color:#8b949e;margin:0 0 16px">Stateless OAuth &amp; webhook bridge · Zero data storage</p><a href="https://github.com/jeanpch/sync-withings2garmin">View Documentation on GitHub →</a></div></body></html>`);
     }
 
     // ── 1. Webhook endpoint: /hook ─────────────────────────────────────────
